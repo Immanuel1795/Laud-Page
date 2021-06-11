@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+/* Home Section */
+.home, .quotes, footer {
+  background-color: #ff4c68;
+  position: relative;
+}
+
+.home {
+  padding: 0 7% 28%;
+}
+
+
+.nav-menu {
+  display: flex;
+  margin-left: 7%;
+}
+
+.nav-menu > a {
+  list-style: none;
+  margin: 10px 15px 0 0;
+  color: #e1e1dd;
+  font-family: 'Fredoka One', cursive;
+  text-decoration: none;
+
+  
+}
+
+.name,  .quotes > h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.name > h1 {
+  font-size: 4rem;
+  font-family: 'Permanent Marker', cursive;
+  
+}
+
+.name > h5 {
+  color: #e1e1dd;
+  padding-top: 5px;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Carter One', cursive;
+}
+
+/* About Section */
+.about {
+  padding: 7% 5% 7% 15%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  
+}
+
+.about h2 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.bharati-image {
+  position: relative;
+}
+
+.about img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 275px;
+  width: 275px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttons {
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 900;
+}
+
+.poet,
+.writer {
+  margin-bottom: 45px;
+}
+
+
+/* Quotes */
+
+
+.quotes {
+  padding: 0 7% 25%;
+  color: white;
+  
+  
+}
+
+/* Achievements */
+
+.achievements{
+  padding: 7% 5% 2% 7%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+.separator{
+  display: flex;
+  align-items: center;
+}
+
+.separator h5{
+  padding: 0 2rem; 
+  font-size: 30px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.separator .line{
+  flex: 1;
+  height: 1px;
+  background-color: #000;
+  
+}
+
+.achievement-box{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  flex: 1;
+  margin-bottom: 75px;
+  
+}
+
+.achievements-box{
+  border: 1px solid black;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.achievements-box h5 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bolder;
+}
+
+.achievement-box p {
+  margin: 0;
+}
+
+.hr-box {
+  width: 100%; 
+  height: 20px; 
+  border-bottom: 1px solid black; 
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.hr-box-span{
+  font-size: 30px; 
+  background-color: white; 
+  padding: 0 10px;
+  font-weight: 500;
+}
+
+.poetries, .poems{
+  padding: 50px 0 50px 0;
+  
+}
+
+/* Footer */
+footer{
+  padding: 2% 20%;
+  color: white;
+  display: flex;
+ 
+}
+
+footer .greysish{
+  color: #FFA000;
+}
+
+footer .blueish{
+  color: blue;
+  text-decoration: underline;
+}
+
+footer .side-hr {
+  border-right: 1px solid white;
+ 
+}
+
+footer div {
+  margin-right: 5px;
+}
+
+footer h6 {
+  font-family: 'Anton', sans-serif;
+}
+
+footer p {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+/* Media Screen */
+
+
+
+@media screen and (max-width: 1140px) {
+  .name > h1 {
+    font-size: 4rem;
+  }
+
+  .name > h5 {
+    font-size: 1.8rem;
+  }
+
+  .nav-menu > a {
+    font-size: 1.3rem;
+  }
+
+  /* About */
+  .about p {
+    font-size: 1.613rem;
+  }
+
+  /* Achievements */
+
+  .achievement-box{
+    display: block;
+    margin-bottom: 45px;
+  }
+  
+  .achievement-box h5{
+    font-size: 30px;
+  }
+
+  .achievement-box p, .poetries, .poems{
+    font-size: 1.613rem;
+  }
+
+  
+  .separator h5{
+    font-size: 38px;
+  }
+  
+  .hr-box-span {
+    font-size: 35px;
+  }
+
+  footer{
+    overflow: hidden;
+    
+  }
+
+  footer h6{
+    font-size: 1.513rem;
+  }
+
+  footer p{
+    font-size: 1.25rem;
+  }
+
+  footer div {
+    margin-right: 18px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    margin-bottom: 8%;
+  }
+
+  .name > h1 {
+    font-size: 3rem;
+  }
+
+  .name > h5 {
+    font-size: 1.5rem;
+  }
+
+  /* About */
+
+  
+
+  .about img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(0);
+  }
+  
+
+  /* footer */
+  footer{
+    display: block;
+    padding: 7%;
+    text-align: center;
+    
+  }
+
+  footer > .side-hr {
+    border-right: 0;
+  }
+  
+  
+  
+
+}
+
+@media screen and (max-width: 680px) {
+  .nav-menu {
+    margin-bottom: 20%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .nav-menu {
+    margin-bottom: 35%;
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .name > h5 {
+    font-size: 1.3rem;
+  }
+
+  .nav-menu > a {
+    font-size: 1.2rem;
+  }
+  /* About */
+
+  .about p {
+    font-size: 1.2rem;
+  }
+  
+
+  .awesome-writer {
+    margin-top: 15px;
+  }
+
+  .space {
+    margin: 5px;
+  }
+  .writer {
+    margin-bottom: 5px;
+  }
+
+  .quotes > h1 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(0);
+  }
+
+  .quotes {
+    padding: 1% 7% 5%;
+  }
+
+  .separator h5{
+    padding: 0 1rem; 
+  }
+
+  .hr-box-span {
+    font-size: 25px;
+  }
+
+  .separator h5{
+    font-size: 25px; 
+  }
+
+  /* Achievements */
+
+  .achievement-box{
+    margin-bottom: 25px;
+  }
+  
+  .achievement-box h5{
+    font-size: 20px;
+  }
+
+  .achievement-box p{
+    font-size: 15px;
+  }
+
+  .achievement-box p, .poetries, .poems{
+    font-size: 1.2rem;
+  }
+
+  /* .poetries{
+    margin-bottom: -45px;
+  } */
+
+  .poetries, .poems{
+    padding: 40px 0 0 0;
+    
+  }
+
+  footer h6{
+    font-size: 1.413rem;
+  }
+
+  footer p{
+    font-size: 1.1rem;
+  }
+
+
+  
+
+  
+  
+}
+@media screen and (max-width: 475px) {
+  .nav-menu {
+    margin-bottom: 65%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .nav-menu {
+    margin-bottom: 80%;
+  }
+
+  .name > h1 {
+    font-size: 2.5rem;
+  }
+
+  .name > h5 {
+    font-size: 0.8rem;
+  }
+
+  .nav-menu > a {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 150px) {
+  .nav-menu {
+    margin-bottom: 80%;
+  }
+
+  .name > h1 {
+    font-size: 1rem;
+  }
+
+  .name > h5 {
+    font-size: 0.5rem;
+  }
+
+  .nav-menu > a {
+    font-size: 0.5rem;
+  }
+
+  .nav-menu {
+    margin-left: 0%;
+  }
+}
